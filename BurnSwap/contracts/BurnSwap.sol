@@ -137,22 +137,4 @@ contract BurnSwap {
         receivedAmount[msg.sender];
     }
 
-
-    //functions:
-    // function Swap(uint256 _amount) public payable OnlyUser(msg.sender) returns (bool,uint256) {  //bool : sent , uint256 : newBalance
-    //     // if SwapBalance has enough liquidity of BurnToken;
-    //     uint256 contractBalance = token.SwapBalance();
-    //     require(contractBalance >= _amount, "This Swap doesn't has enough BURN token for do this swapping");
-        
-    //     bool transfer = token.Sending(User, _amount);
-
-    //     emit BuyBurn(token.SwapAddress(), msg.sender, _amount);
-
-    //     uint256 UserNewBalance = msg.sender.balance;
-
-    //     return (transfer, UserNewBalance); 
-    // }
-
-
-
 }
